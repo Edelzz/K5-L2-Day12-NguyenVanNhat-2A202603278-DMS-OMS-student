@@ -1,0 +1,7 @@
+﻿frame_id,source,phenomenon,affected_field,effect_on_label
+S03_ir,IR_sim,"Phần bên trái ảnh bớt tối so với RGB, đường viền thùng rõ hơn",object.type,"Có thêm căn cứ nhận dạng box từ hình khối"
+S06_ir,IR_sim,"Đường viền ghế bên trái ảnh dễ thấy hơn so với RGB",child_seat,"Xác định vùng cần rà ở rear_right và báo coach về hình giống trẻ"
+S07_ir,IR_sim,"Vùng ghế giữa và hình bên trong tách khỏi nền rõ hơn so với RGB",child_seat.occupied,"Đưa vào danh sách hỏi coach trước khi xác nhận ghế trống"
+S01_ir,IR_sim,"Màu áo đỏ trên RGB chuyển thành các mức xám",person,"Dựa vào hình dáng cơ thể để vẽ box"
+D03,real_IR,"Các đốm phản xạ trên tròng kính chồng lên vùng mắt",eye_left / eye_right,"Rà độ rõ của từng khe mắt trước khi giữ open"
+D05,real_IR,"Chai và bàn tay che một phần vùng miệng",face13,"Đánh cờ từng điểm miệng theo mức định vị được"

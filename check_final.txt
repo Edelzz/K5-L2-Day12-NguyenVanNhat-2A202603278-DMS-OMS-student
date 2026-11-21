@@ -1,0 +1,18 @@
+File: export_final.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=10, face=19, face13=6, hand=12, infant_seat=8, object=10, person=25, phone=1
+  [WARN] D01.png: eye_left=unknown nhưng không điểm left_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] D02.png: left_eye_outer nằm bên trái ảnh so với right_eye_outer: kiểm lại quy ước trái/phải theo người (đúng nếu mặt quay hẳn sang bên)
+  [WARN] D04.png: eye_left=unknown nhưng không điểm left_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] D04.png: eye_right=unknown nhưng không điểm right_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] D05.png: eye_right=unknown nhưng không điểm right_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] D06.png: eye_left=unknown nhưng không điểm left_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+Kết quả: 0 lỗi, 6 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+Ghi chú D02.png: Ảnh NIR xoay khoảng 90 độ. Tọa độ y của left_eye_outer là 719, lớn hơn right_eye_outer là 519, phù hợp quy ước trái/phải theo người trong guideline §4.6. Cảnh báo của script so theo trục x.
+
+Ghi chú về các mắt đang để unknown. Cờ điểm trong bản export vẫn giữ theo lúc xuất.
+D01.png (mắt trái) — Ảnh tối, mép mí thiếu chi tiết để phân biệt mở hay nhắm. Giữ unknown.
+D04.png (mắt trái) — Khe mắt hẹp và mép mí thiếu chi tiết. Giữ unknown.
+D04.png (mắt phải) — Mép mí chưa đủ rõ để xác nhận mắt mở hay nhắm. Giữ unknown.
+D05.png (mắt phải) — Góc nghiêng và tương phản thấp qua kính làm khe mắt phía xa khó đọc. Giữ unknown.
+D06.png (mắt trái) — Mặt nghiêng và vùng mí thiếu nét. Giữ unknown.
